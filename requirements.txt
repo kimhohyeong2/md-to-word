@@ -1,6 +1,7 @@
 python-docx
 mistune
 PyQt5
+pyqt5-tools
 Pillow
 chardet
 py7zr
