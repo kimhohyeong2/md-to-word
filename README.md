@@ -1,2 +1,5 @@
 # md-to-worddjdbdjdn
-dtdtdtdtdtd
+
+
+라이브러리 설치
+python -m pip install -r requirements.txt
