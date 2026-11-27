@@ -1,0 +1,8 @@
+python-docx
+mistune
+PyQt5
+Pillow
+chardet
+py7zr
+msoffcrypto-tool
+PyInstaller
