@@ -9,25 +9,41 @@
 | 신재민 | C. 파일 관리 | file_manager.py |
 | 김형호 | 통합, 테스트, 배포 | main.py |
 
-## 2. 개발 환경 준비 (전원)
-
-### 2.1 프로그램 설치
-
-- [ ] Python 설치 (Add Python to PATH 체크)
-- [ ] VS Code 설치
-- [ ] Git 설치
-- [ ] VS Code에서 Python 확장 프로그램 설치
-- [ ] GitHub 로그인
-- [ ] GitHub 저장소 초대 수락
-
 ### 2.2 프로젝트 다운로드
 
-VS Code에서 터미널을 열고 다음 명령어를 입력한다.
+#### 2.2.1 VS Code 새 창 열기
+
+- File → New Window
+- 단축키: Ctrl + Shift + N
+
+#### 2.2.2 프로젝트를 저장할 폴더 열기
+
+- File → Open Folder
+- 단축키: Ctrl + K를 누른 뒤 Ctrl + O
+- 문서(Documents) 폴더에 Projects 폴더를 생성하고 선택
+
+#### 2.2.3 터미널 열기
+
+- Terminal → New Terminal
+- 단축키: Ctrl + `
+
+#### 2.2.4 GitHub 프로젝트 다운로드
 
 ```bash
 git clone https://github.com/kimhohyeong2/md-to-word.git
-cd md-to-word
 ```
+
+#### 2.2.5 프로젝트 폴더 열기
+
+```bash
+cd md-to-word
+code .
+```
+
+- code . 명령어가 작동하지 않으면 File → Open Folder에서 md-to-word 폴더를 직접 선택한다.
+- 신뢰 여부를 묻는 창이 나오면 Yes, I trust the authors를 선택한다.
+- 프로젝트가 열린 VS Code에서 터미널을 새로 열고 2.3단계부터 진행한다.
+- 이후에는 git clone을 반복하지 않고 기존 md-to-word 폴더를 열어 작업한다.
 
 ### 2.3 가상환경 생성
 
